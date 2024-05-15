@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 import numpy as np
-import json
+# import json
 
 def create_dataset_with_labels(data_dir, target_size=(32, 32)):
     """
@@ -77,18 +77,18 @@ def create_label_array(image_paths, label_mapping):
 
     return np.array(label_array, dtype=np.uint8)  # Convert to NumPy array
 
-with open('train-images.json', "r") as json_data:
-    data = json.load(json_data)
+# with open('train-images.json', "r") as json_data:
+#     data = json.load(json_data)
 
-label_mapping = {
-    os.path.basename(image["img"]): image["label"] for image in data
-}
+# label_mapping = {
+#     os.path.basename(image["img"]): image["label"] for image in data
+# }
 
 # Example usage (assuming you have a label mapping dictionary `label_mapping`)
-data_dir = "./images"
-pixel_values, labels, image_paths = create_dataset_with_labels(data_dir)
+# data_dir = "./images"
+# pixel_values, labels, image_paths = create_dataset_with_labels(data_dir)
 
-label_array = create_label_array(image_paths, label_mapping)
+# label_array = create_label_array(image_paths, label_mapping)
 
 # Use image_paths to map labels correctly
 
