@@ -1,0 +1,50 @@
+[
+    {
+        "label": "winter",
+        "img": "./images/winter/win1.jpg"
+    },
+    {
+        "label": "winter",
+        "img": "./images/winter/win2.jpg"
+    },
+    {
+        "label": "winter",
+        "img": "./images/winter/win3.jpg"
+    },
+    {
+        "label": "winter",
+        "img": "./images/winter/win4.jpg"
+    },
+    {
+        "label": "winter",
+        "img": "./images/winter/win5.jpg"
+    },
+    {
+        "label": "winter",
+        "img": "./images/winter/win6.jpg"
+    },
+    {
+        "label": "summer",
+        "img": "./images/summer/sum1.jpg"
+    },
+    {
+        "label": "summer",
+        "img": "./images/summer/sum2.jpg"
+    },
+    {
+        "label": "summer",
+        "img": "./images/summer/sum3.jpg"
+    },
+    {
+        "label": "summer",
+        "img": "./images/summer/sum4.jpg"
+    },
+    {
+        "label": "summer",
+        "img": "./images/summer/sum5.jpg"
+    },
+    {
+        "label": "summer",
+        "img": "./images/summer/sum6.jpg"
+    }
+]
