@@ -55,7 +55,7 @@ def create_dataset_with_labels(data_dir, target_size=(32, 32)):
 
     return pixel_values, labels, image_paths
 
-def create_label_array(image_paths, label_mapping, labels):
+def create_label_array(image_paths, label_mapping):
     """
     Creates a 2D NumPy array with labels for each image.
 
@@ -88,7 +88,7 @@ label_mapping = {
 data_dir = "./images"
 pixel_values, labels, image_paths = create_dataset_with_labels(data_dir)
 
-label_array = create_label_array(image_paths, label_mapping, labels)
+label_array = create_label_array(image_paths, label_mapping)
 
 # Use image_paths to map labels correctly
 
